@@ -2,7 +2,7 @@
 
 ## 1.1 LED Arduino Code 설명
 
-```C
+```ino
 void setup(){
   Serial.begin(9600);
   pinMode(13, OUTPUT); // 13번 핀에 LED.
@@ -18,7 +18,7 @@ void loop(){
 ```
 ## 1.2 LED Processing Code 설명
 
-```C
+```pde
 import processing.serial.*; // 시리얼 사용
 import processing.net.*;
 
@@ -61,7 +61,7 @@ void draw() {
 # 2. TMP
 
 ## 2.1 TMP Arduino Code 설명
-```C
+```ino
 void setup(){
   Serial.begin(9600);
 }
@@ -80,7 +80,7 @@ void loop(){
 ```
 
 ## 2.2 TMP Processing Code 설명
-```C
+```pde
 import processing.serial.*;
 import processing.net.*;
 
